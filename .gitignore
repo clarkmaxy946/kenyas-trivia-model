@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Model weights and checkpoints (host or release these separately)
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoints/
+
+# Secrets / local config
+.env
+*.env
+
+# Notebooks and editors / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
